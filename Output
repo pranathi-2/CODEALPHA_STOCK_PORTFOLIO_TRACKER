@@ -1,0 +1,31 @@
+Added 10 shares of AAPL at $150 each.
+Added 5 shares of GOOGL at $2500 each.
+<ipython-input-1-c07b921312dc>:21: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  return data['Close'][0]
+<ipython-input-1-c07b921312dc>:21: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  return data['Close'][0]
+AAPL: 10 shares, Purchase Price: $150,Current Price: $249.7899932861328, Current Value: $2497.899932861328
+GOOGL: 5 shares, Purchase Price: $2500,Current Price: $188.50999450683594, Current Value: $942.5499725341797
+
+Portfolio Performance:
+Total Investment: $14000.00
+Total Current Value: $3440.45
+Total Return: $-10559.55
+Portfolio Return Percentage: -75.43%
+
+Portfolio Summary:
+AAPL: 10 shares at $150 each
+GOOGL: 5 shares at $2500 each
+Removed AAPL from the portfolio.
+GOOGL: 5 shares, Purchase Price: $2500,Current Price: $188.50999450683594, Current Value: $942.5499725341797
+
+Portfolio Performance:
+Total Investment: $12500.00
+Total Current Value: $942.55
+Total Return: $-11557.45
+Portfolio Return Percentage: -92.46%
+
+Portfolio Summary:
+GOOGL: 5 shares at $2500 each
+<ipython-input-1-c07b921312dc>:21: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  return data['Close'][0]
